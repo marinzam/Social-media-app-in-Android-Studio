@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="project02.csc214.coucou.OtherProfileActivity">
+
+    <TextView
+        android:id="@+id/o_text_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:text="@string/profile_msg"
+        android:textSize="22sp" />
+
+    <RelativeLayout
+        android:id="@+id/o_info_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/o_text_profile"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/o_view_profile_pic"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/profile_circle"
+            android:padding="50dp" />
+
+
+        <LinearLayout
+            android:id="@+id/o_layout_enter_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/o_view_profile_pic"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/o_text_full_name_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:" />
+
+            <TextView
+                android:id="@+id/o_text_full_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="[full name]"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/o_text_birth_date_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DOB:" />
+
+            <TextView
+                android:id="@+id/o_text_birth_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="[mm/dd/yyyy]"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/o_text_home_town_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home_town" />
+
+            <TextView
+                android:id="@+id/o_text_home_town"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="[hometown]"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/o_text_short_bio_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bio" />
+
+            <TextView
+                android:id="@+id/o_text_short_bio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="[short bio]"
+                android:minLines="2"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

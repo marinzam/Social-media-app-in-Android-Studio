@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Coucou!</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="text_sign_up">Don\'t have an account? Sign up!</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="email">Email</string>
+    <string name="cancel">CANCEL</string>
+    <string name="title_activity_news_feed">NewsFeedActivity</string>
+    <string name="edit_info_title">Enter User Information</string>
+    <string name="take_photo">Camera</string>
+    <string name="upload_photo">Album</string>
+    <string name="full_name">Full Name:</string>
+    <string name="birth_date">Birth date:</string>
+    <string name="home_town">Hometown:</string>
+    <string name="short_bio">Write a short bio:</string>
+    <string name="mm_dd_yyyy">MM/DD/YYYY</string>
+    <string name="save">SAVE</string>
+    <string name="mm">MM</string>
+    <string name="dd">DD</string>
+    <string name="yyyy">YYYY</string>
+    <string name="profile_msg">Profile:</string>
+    <string name="bio">Bio:</string>
+</resources>
